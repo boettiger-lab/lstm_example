@@ -7,9 +7,7 @@ git clone https://github.com/boettiger-lab/lstm_example
 cd lstm_example
 PYTHON_CONFIGURE_OPTS=--enable-shared pipenv --python 3.7  # answer Y at prompt
 
-pipenv install
-
-pipenv shell # activates the virtualenv
-python lstm_example.py
+pipenv install                     # installs Pipfile.lock
+pipenv run python lstm-example.py  # or use pipenv shell 
 ```
 
