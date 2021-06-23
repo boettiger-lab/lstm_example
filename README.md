@@ -8,6 +8,6 @@ cd lstm_example
 PYTHON_CONFIGURE_OPTS=--enable-shared pipenv --python 3.7  # answer Y at prompt
 
 pipenv install                     # installs Pipfile.lock
-pipenv run python lstm-example.py  # or use pipenv shell 
+pipenv run python lstm-test.py  # or use pipenv shell 
 ```
 
